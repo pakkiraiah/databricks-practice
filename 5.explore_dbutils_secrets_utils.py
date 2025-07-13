@@ -14,7 +14,7 @@ dbutils.secrets.listScopes()
 
 dbutils.secrets.list("formula1-scope")
 #dbutils.secrets.list("databrickspracticesa")
-#spark.conf.set("fs.azure.account.key.databrickspracticesa.dfs.core.windows.net", "ynj0e8Zj0sFSbKvxPSuBhc3tqMHcdoEZkuHfWlFCR0Me9bDt1iEF6buTbEb3rAXGvwb843ZsNxY8+ASt4L/o6w==")
+#spark.conf.set("fs.azure.account.key.databrickspracticesa.dfs.core.windows.net", "")
 
 # COMMAND ----------
 
