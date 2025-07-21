@@ -24,7 +24,7 @@ display(dbutils.fs.ls("abfss://demo@databrickspracticesa.dfs.core.windows.net"))
 
 # COMMAND ----------
 
-display(spark.read.csv("abfss://demo@databrickspracticesa.dfs.core.windows.net/circuits.csv"))
+display(spark.read.csv("abfss://demo@databrickspracticesa.dfs.core.windows.net/circuits.csv").limit(10))
 
 # COMMAND ----------
 
@@ -33,3 +33,7 @@ dbutils.fs.ls("/")
 # COMMAND ----------
 
 display(dbutils.fs.ls("/"))
+
+# COMMAND ----------
+
+display(dbutils.fs.ls("dbfs:/FileStore/"))
